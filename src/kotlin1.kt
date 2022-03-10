@@ -1,12 +1,14 @@
 fun main(){
     name()
-    text()
+    text("grace",54)
     println(two(30,6))
-    one()
+    println(one())
 }
 fun one() {
     var statement = "CodeHive"
     var x =statement[4]
+
+    println(x)
 
 }
 
@@ -15,9 +17,7 @@ fun two( x:Int, y:Int): Int {
     return div
 
 }
-fun  text() {
-     val name = "lona"
-     var age = 42
+fun  text(name:String,age:Int) {
     println("My name is $name and iam $age years old")
 
 }
