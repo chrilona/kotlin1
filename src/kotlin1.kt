@@ -2,10 +2,11 @@ fun main(){
     name()
     text()
     println(two(30,6))
+    one()
 }
-fun one(){
+fun one() {
     var statement = "CodeHive"
-    var x =statement.get(4)
+    var x =statement[4]
 
 }
 
